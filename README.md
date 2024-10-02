@@ -1,14 +1,15 @@
 # CIS25-Project-1
 
 Author: Jimmy Hsu
+
 Project: Stock Simulator
 
-### Project Objective
----
+## Project Objective
+
 The original objective of this project was to create a simple business tycoon simulator where user would be in the role of a business manager. The program was to utilize randomized consumer demand and stock prices, and the central gameplay loop would be focused around optimizing the best times to buy and sell goods. A simple text-based ui would allow the user to interact with the game's systems.
 
-### Project Takeaways
----
+## Project Takeaways
+
 - from the start, the idea was to make a business sim with stocks on the side
 - had to cut scope down due to time constraints
 	+ customers class and shop-sim aspect of the game had to be cut
