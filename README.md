@@ -10,25 +10,19 @@ The original objective of this project was to create a simple business tycoon si
 
 ## Project Takeaways
 
-- from the start, the idea was to make a business sim with stocks on the side
-- had to cut scope down due to time constraints
-	+ customers class and shop-sim aspect of the game had to be cut
-	+ leftover popularity parameter in Business classes is thus redundant code now
+- From the start, the project idea was to make a business sim with stocks on the side; unfortunately, I had to cut the scope of the project down due to time constraints
+	+ The customer class and shop-sim aspect of the game had to be cut from the project
+	+ The leftover popularity parameter in Business classes is now thus redundant code now
 
-- had trouble making different classes interact with each other
-	+ mainly in allowing the Business class to buy and sell Stock objects
-	| while still keeping track of it's inventory of stocks
+- I had trouble making different classes interact with each other, mainly in allowing the Business class to buy and sell Stock objects while still keeping track of it's inventory of stocks
 
-- additionally, there was trouble passing class objects to custom fuctions in the program
-	+ encountered "the object has type qualifiers that are not compatible with the member function" error
-	+ custom fuctions could not access get methods from passed objects for unknown reason
-	| thus, could not get Business net worth calculations or Business info display functions to work
+- Additionally, I had trouble passing class objects to custom fuctions in the program
+	+ I encountered "the object has type qualifiers that are not compatible with the member function" error
+	+ My custom fuctions could not access get methods from passed objects for unknown reasons thus, could not get Business net worth calculations or Business info display functions to work
 
-- had trouble creating Business array attribute initialization for constructor
-	+ ended up omitting a default intializing array and just creating array data in main()
-	+ also scrapped the inclusion of arrays of Stocks in Business class due to this issue,
-	| which is why the BuyStock and SellStock functions have to take in a Stock object as a
-	| parameter to check against the Business object's listings in its items[] array
+- I had trouble creating Business array attribute initialization for constructor
+	+ I ended up omitting a default intializing array and just creating array data in main()
+	+ I also scrapped the inclusion of arrays of Stocks in Business class due to this issue, which is why the BuyStock and SellStock functions have to take in a Stock object as a parameter to check against the Business object's listings in its items[] array
 
 ### Code: 
 
