@@ -4,6 +4,8 @@ Author: Jimmy Hsu
 
 Project: Stock Simulator
 
+Recording: [Video here](https://github.com)
+
 ## Project Objective
 
 The original objective of this project was to create a simple business tycoon simulator where user would be in the role of a business manager. The program was to utilize randomized consumer demand and stock prices, and the central gameplay loop would be focused around optimizing the best times to buy and sell goods. A simple text-based ui would allow the user to interact with the game's systems.
@@ -24,6 +26,9 @@ The original objective of this project was to create a simple business tycoon si
 	+ I ended up omitting a default intializing array and just creating array data in main()
 	+ I also scrapped the inclusion of arrays of Stocks in Business class due to this issue, which is why the BuyStock and SellStock functions have to take in a Stock object as a parameter to check against the Business object's listings in its items[] array
 
-### Code: 
+### Program Screenshot: 
+<img width="860" alt="image" src="https://github.com/user-attachments/assets/1599d428-ef33-4bd0-87d0-142848b5543f">
+<img width="858" alt="image" src="https://github.com/user-attachments/assets/6fef69bc-ac0d-46de-b0b6-cf2061486b68">
+
 
 
