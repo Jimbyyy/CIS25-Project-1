@@ -4,7 +4,7 @@ Author: Jimmy Hsu
 
 Project: Stock Simulator
 
-Recording: [Video here](https://github.com)
+Recording: [Video Here](https://github.com)
 
 ## Project Objective
 
